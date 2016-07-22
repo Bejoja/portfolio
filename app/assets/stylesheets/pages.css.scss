@@ -1,0 +1,35 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: #E6E6E6;
+  opacity: 0.7;
+}
+
+h2 {
+  width: 60px;
+  margin: 5px 0px 0px 5px;
+  padding-left: 3px;
+  border-left: #000 2px solid;
+  border-top: #000 2px solid;
+}
+
+.nav li {
+  display: inline-block;
+  width: calc(100%/3);
+  text-align: center;
+}
+
+.main {
+	background-color:#81BEF7;
+ 	text-align: center;
+  height: 250px;
+  line-height: 250px;
+}
+
+.footer p {
+  text-align: center;
+  display: inline-block;
+  width: calc(100%/4);
+  padding-top: 15px;
+}
